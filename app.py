@@ -25,7 +25,7 @@ def success():
  
     qry = db_session.query(Items)
     results = qry.all()
-
+	
     return str(results)
   
 
